@@ -1,0 +1,21 @@
+h1 {
+  outline: 1px solid yellow;
+  text-align: center;
+}
+.caja {
+  width: 400px;
+  /*outline: 1px solid red; ayuda a ver como se esta maquetando mis elementos*/
+  padding: 10px;
+  border: 1px solid #999;
+  /*margin: 16px;*/
+  box-sizing: border-box;/* respete el ancho declarado y le sume padding y borde*/
+  float: left;/* cambia el flujo normal que adoptan los elementos  div (elementos en bloque( de arriba a abajo) y lo coloca en linea a partir de la parte izquierda hacia la derecha)*/
+  margin-left: 8px;
+}
+img {
+  outline:  1px solid blue;
+  max-width: 100%; /* sirve para ajustar la imagen al tamaño de su contenedor(div caja)*/
+}
+p {
+  outline:  1px solid green;
+}
